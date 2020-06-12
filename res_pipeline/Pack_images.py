@@ -19,7 +19,7 @@ os.system("free-tex-packer-cli --project .\shapez_size_10.ftpp")
 def update_file( filename, match , replacement ):
 	"""
 
-		Update Line in file, were match.
+		Update Line in file, where match.
 
 	"""
 
@@ -50,7 +50,7 @@ def update_file( filename, match , replacement ):
 				break
 				
 
-	# ReOpen file to write
+	# Re-Open file to write
 	with open(filename, 'w') as file:
 
 		# Write modified data.
